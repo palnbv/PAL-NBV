@@ -4,6 +4,9 @@ Run single-robot pallet pose estimation in an Isaac Sim warehouse. An RGB-D came
 
 This directory runs independently of the original `nbv_pose_estimation` task. It uses the same warehouse scenarios and core geometric algorithms, with one controller and no RL agents, timing reports, plots, or experiment scripts.
 
+
+**Pallet-Keypoint detection model as well as it's training data can be found in the zip file attached in the release artifacts!**
+
 ## Install on Ubuntu 24.04 with Docker
 
 **Reproduction target:** [Isaac Lab v2.3.0](https://github.com/isaac-sim/IsaacLab/releases/tag/v2.3.0). Its [official Docker configuration](https://github.com/isaac-sim/IsaacLab/blob/v2.3.0/docker/.env.base) pins **Isaac Sim 5.1.0**. The project was smoke-tested with Isaac Lab 2.3.0 and a 5.1.0 release-candidate build of Isaac Sim. [Isaac Lab v3.0.0](https://github.com/isaac-sim/IsaacLab/releases/tag/v3.0.0) was the latest upstream release as of November 21, 2026, but is not tested here. Use the pinned tag below, not the default branch.
