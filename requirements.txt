@@ -1,0 +1,7 @@
+# Isaac Lab and Isaac Sim (including PyTorch and OpenCV) are installed separately.
+onnxruntime-gpu==1.22.0
+pyoctomap==1.2.2
+ompl==1.7.0
+numpy
+scipy
+PyYAML
